@@ -1,8 +1,8 @@
-# 1. About windows server operating system.
+# 1. About workgroup and domain networking.
 # 2. Server hardware and about HP, Dell Server.
 # 3. Work of IDRAC and ILO port.
 # 4. Configure hardware RAID ti install server os
-# 5. About workgroup and domain networking.
+# 5. About windows server operating system.
 # 6. What is active directory
 # 7. Installation of server 2022.
 # 8. Pre-requisite to install AD.
