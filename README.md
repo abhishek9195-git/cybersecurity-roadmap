@@ -22,6 +22,9 @@
 
 
 # Commands
+```
 > ncpa.cpl
 > firewall.cpl
 > ping
+> sysdm.cpl
+```
