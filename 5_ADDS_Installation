@@ -12,3 +12,18 @@
 - Open server manager
 - click on add roles and features
 - select active directory and install
+
+
+# 3. Test connection between server and client.
+- Change security group inbound and allow "All ICMP"
+- Ping server from client and vice-versa
+
+
+# 4. Add windows client machine to domain
+- Open client machine cmd.
+
+```
+> sysdm.cpl
+```
+- computer name: DEMO-PC
+- Member of domain: cloud.com
