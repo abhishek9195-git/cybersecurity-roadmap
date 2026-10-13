@@ -19,3 +19,9 @@
 # 19. Work of WSUS Service.
 # 20. Work of WDS.
 # 21. Windows Server backups.
+
+
+# Commands
+> ncpa.cpl
+> firewall.cpl
+> ping
