@@ -9,7 +9,7 @@
 - Open run > ncpa.cpl > ipv4 properties > fill the ip addresses.
 
 
-# 2. Add active directory
+# 2. Install ADDS on windows-server and promote it to Domain controller
 - Open server manager
 - click on add roles and features
 - select active directory and install
@@ -20,7 +20,11 @@
 - Ping server from client and vice-versa
 
 
-# 4. Add windows client machine to domain
+# 4. Add windows-client machine to domain controller
+- Turn off firewall
+- Convert client machine from workgroup to domain
+> ncpa.cpl
+- ethernet > properties > select Ipv4 > preferred domain s
 - Open client machine cmd.
 
 ```
