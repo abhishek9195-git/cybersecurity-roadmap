@@ -22,13 +22,13 @@
 
 # 4. Add windows-client machine to domain controller
 - Turn off firewall
-- Convert client machine from workgroup to domain
+- Set preferred DNS server as windows-server IP.
 > ncpa.cpl
-- ethernet > properties > select Ipv4 > preferred domain s
-- Open client machine cmd.
+- ethernet > properties > select Ipv4 > preferred DNS server (IP Address of windows-server machine)
 
-```
+- Convert client machine from workgroup to domain
 > sysdm.cpl
-```
+> Computer Description (DEMO-PC) > Select Change > Select Member of "Domain" > Provide value "cloud.com" > click ok > user name: Administrator, Password: Password of windows-server machine
+
 - computer name: DEMO-PC
 - Member of domain: cloud.com
