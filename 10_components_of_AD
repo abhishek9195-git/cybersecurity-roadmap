@@ -1,0 +1,15 @@
+# 1. Components of Active Directory
+
+Objects
+- Users
+- Groups: Apply delegations in bulk
+- Computers
+- Shared folder
+
+
+Containers
+- Domain: Helps in GPO. 
+- Site
+- OU
+
+# 2. ADDS users properties configurations.
