@@ -11,7 +11,7 @@
 8. Additional fields can be added through admin/#selfservice/userregistration/ "Add button".
 
 
-# Custom Registration Attribute Configuration Guide 
+# Add an Attribute to Registration Form/ Customize registration form 
 
 ## 1. Add the attribute to the managed user schema
 1. Log in to the OpenIDM Admin UI.
